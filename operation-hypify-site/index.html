@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Operation Hypify</title>
+  <meta name="description" content="Operation Hypify is a youth-led network of teachers and students refreshing STEM education with creativity and excitement." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="Operation Hypify home">
+        <img class="logo" src="assets/img/logo.png" alt="Operation Hypify logo" onerror="this.onerror=null;this.src='assets/img/logo.svg'">
+        <span class="brand-name">Operation<br>Hypify</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container">
+      <h1>Engineering a Brighter Future</h1>
+      <p>We're a network of teachers and students committed to refreshing STEM education with renewed creativity and excitement. Join us as we foster innovation, empower students, and increase the hype around STEM!</p>
+    </div>
+  </section>
+
+  <!-- ================= PHOTO STRIP ================= -->
+  <div class="photo-strip" id="home-strip"></div>
+
+  <!-- ================= IMPACT VERIFIED ================= -->
+  <section>
+    <div class="container">
+      <div class="band impact-band">
+        <div class="impact-text">
+          <p class="eyebrow">Recognized Impact</p>
+          <h2 class="section-title" style="margin-bottom:8px;">We are an impact-verified youth-led organization!</h2>
+        </div>
+        <a class="cmhq-badge" href="https://www.cmhqglobal.com/impact/VqcGsUOYpmEvHLxKABje9aR" target="_blank" rel="noopener" aria-label="View our CMHQ impact verification">
+          <img src="assets/img/cmhq.png" alt="ChangemakersHQ Impact Verified badge">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA + STATS ================= -->
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="cta-stats">
+        <h2 class="section-title">Start a chapter. Spread the hype.</h2>
+        <p class="lead">Whether you're a student wanting to start a new club or a teacher wanting to give students more STEM opportunities, Operation Hypify will provide free resources and ideas to help you succeed. Help us spread our network and reach more students with STEM!</p>
+        <a class="btn btn-primary" href="join.html">Start a New Chapter Now</a>
+        <div class="stats">
+          <div class="stat"><div class="num" data-count="50">0</div><div class="label">Chapters</div></div>
+          <div class="stat"><div class="num" data-count="1500">0</div><div class="label">Students</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VOLUNTEER IMPACT ================= -->
+  <section class="section-tight">
+    <div class="container">
+      <p class="eyebrow">Our Volunteer Impacts</p>
+      <h2 class="section-title">Powered by dedicated volunteers</h2>
+      <div class="vol-grid">
+        <div class="vol-card"><div class="num" data-count="50">0</div><div class="label">Volunteers</div></div>
+        <div class="vol-card"><div class="num" data-count="1000">0</div><div class="label">Volunteer Hours</div></div>
+      </div>
+      <p class="lead mt-24">Sign up to volunteer here:
+        <a class="btn btn-navy" style="margin-left:8px;" href="https://docs.google.com/forms/d/e/1FAIpQLSdCpGQ_oOxI78vQgmjRzeDSd86TTG9PohUpB1aFLXNZH65RYA/viewform" target="_blank" rel="noopener">Click here!</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section>
+    <div class="container">
+      <p class="eyebrow">In Their Words</p>
+      <h2 class="section-title">What our community says</h2>
+      <div class="testimonials">
+        <div class="quote">
+          <p>“Operation Hypify engages young minds and allows them to explore new ideas and discover new STEM career paths.”</p>
+          <div class="who">
+            <div class="avatar">S</div>
+            <div><div class="name">Sahasra</div><div class="role">Club Leader</div></div>
+          </div>
+        </div>
+        <div class="quote">
+          <p>“It was actually so fun because we did fun activities that brought the science to life.”</p>
+          <div class="who">
+            <div class="avatar">J</div>
+            <div><div class="name">Julia</div><div class="role">Middle Schooler</div></div>
+          </div>
+        </div>
+        <div class="quote">
+          <p>“I could see how the middle schoolers were genuinely interested and excited to explore STEM.”</p>
+          <div class="who">
+            <div class="avatar">J</div>
+            <div><div class="name">Jacob</div><div class="role">High Schooler</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ACTIVITIES GALLERY ================= -->
+  <section class="section-tight">
+    <div class="container">
+      <p class="eyebrow">In the Classroom</p>
+      <h2 class="section-title">Moments from our chapters</h2>
+      <p class="lead">Real students, real experiments, real excitement around STEM.</p>
+      <div class="act-gallery" id="act-gallery"></div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED ================= -->
+  <section class="section-tight">
+    <div class="container center">
+      <h2 class="section-title">Thank you for featuring us:</h2>
+      <div class="assoc-grid" id="assoc-grid"></div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-nav">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a class="email" href="mailto:contact@operationhypify.org">contact@operationhypify.org</a>
+          <div class="social-bar">
+            <a href="https://www.tiktok.com/@operation_hypify" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24"><path d="M16.5 3c.3 2.1 1.6 3.7 3.5 4v2.4c-1.3 0-2.5-.4-3.5-1v6.3c0 3.3-2.6 5.6-5.6 5.6C7.9 20.3 5.5 18 5.5 15c0-2.8 2.1-5.1 5-5.1.3 0 .6 0 .9.1v2.6c-.3-.1-.6-.2-.9-.2-1.4 0-2.4 1.1-2.4 2.6 0 1.4 1.1 2.5 2.5 2.5s2.5-1.1 2.5-2.6V3h3.4z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@operationhypify" target="_blank" rel="noopener" aria-label="YouTube">
+              <svg viewBox="0 0 24 24"><path d="M23 7.5s-.2-1.6-.9-2.3c-.9-.9-1.8-.9-2.3-1C16.7 4 12 4 12 4s-4.7 0-7.8.2c-.5.1-1.4.1-2.3 1C1.2 5.9 1 7.5 1 7.5S.8 9.4.8 11.3v1.3c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.9.9 2.1.9 2.6 1 1.9.2 7.5.2 7.5.2s4.7 0 7.8-.2c.5-.1 1.4-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8v-1.3c0-1.9-.2-3.8-.2-3.8zM9.8 15.1V8.7l6.1 3.2-6.1 3.2z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/operation_hypify?igsh=MXBic3Fya3pvZ3dhbQ%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.3 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .3-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.3-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.3 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8zm0 8.1a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4zm6.3-8.3a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 by Operation Hypify Inc</span>
+        <span>501(c)(3) Registered Nonprofit</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 150" width="120" height="150" role="img" aria-label="Operation Hypify logo">
+  <defs>
+    <style>
+      .navy { fill:#1f2740; }
+      .halo { paint-order:stroke; stroke:#ffffff; stroke-width:7; stroke-linejoin:round; }
+      .ray  { stroke:#f4c95d; stroke-width:5; stroke-linecap:round; fill:none; }
+      .cream{ fill:#f2ede0; }
+      .ring { fill:none; stroke:#1f2740; stroke-width:2; }
+    </style>
+  </defs>
+
+  <!-- rays -->
+  <g class="ray">
+    <line x1="68.9" y1="21.6" x2="72.3" y2="12.2"/>
+    <line x1="78.4" y1="27.6" x2="85.5" y2="20.5"/>
+    <line x1="84.4" y1="37.1" x2="93.8" y2="33.7"/>
+    <line x1="51.1" y1="21.6" x2="47.7" y2="12.2"/>
+    <line x1="41.6" y1="27.6" x2="34.5" y2="20.5"/>
+    <line x1="35.6" y1="37.1" x2="26.2" y2="33.7"/>
+  </g>
+
+  <!-- bulb + base + neck as one navy silhouette with white halo -->
+  <path class="navy halo" d="M60 24
+      a20 20 0 0 1 12 36
+      v4 a2 2 0 0 1 -2 2 h-20 a2 2 0 0 1 -2 -2
+      v-4 a20 20 0 0 1 12 -36 z"/>
+  <!-- screw base -->
+  <rect class="navy halo" x="50" y="64" width="20" height="9" rx="2.5"/>
+
+  <!-- flask body silhouette (round-bottom Florence flask) with white halo -->
+  <path class="navy halo" d="M53 72 v9 a34 34 0 1 0 14 0 v-9 z"/>
+
+  <!-- bulb inner light + filament -->
+  <path fill="#fdf7e6" d="M60 27 a17 17 0 0 1 10 30 h-20 a17 17 0 0 1 10 -30 z"/>
+  <!-- screw threads -->
+  <line x1="52" y1="67.5" x2="68" y2="67.5" stroke="#1f2740" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="52" y1="70.5" x2="68" y2="70.5" stroke="#1f2740" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- filament (yellow) -->
+  <path fill="none" stroke="#f4c95d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+        d="M51 42 C53 35 59 35 60 42 C61 35 67 35 69 42 C66 47 61 47 60 46 L60 58"/>
+
+  <!-- neck rim -->
+  <rect class="cream" x="52.5" y="73" width="15" height="4" rx="1.5"/>
+  <rect class="ring" x="52.5" y="73" width="15" height="4" rx="1.5"/>
+
+  <!-- liquid highlight (subtle) -->
+  <circle cx="60" cy="104" r="30" fill="#242d4d"/>
+
+  <!-- bubbles -->
+  <g>
+    <circle cx="70" cy="108" r="6.5" class="cream"/>
+    <circle cx="70" cy="108" r="3" class="ring"/>
+    <circle cx="55" cy="118" r="4.5" class="cream"/>
+    <circle cx="55" cy="118" r="2" class="ring"/>
+    <circle cx="48" cy="100" r="3" class="cream"/>
+    <circle cx="63" cy="92" r="2.4" class="cream"/>
+    <!-- sparkle -->
+    <g stroke="#f2ede0" stroke-width="2" stroke-linecap="round">
+      <line x1="44" y1="110" x2="44" y2="116"/>
+      <line x1="41" y1="113" x2="47" y2="113"/>
+    </g>
+  </g>
+</svg>
